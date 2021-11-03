@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "generateRandomMonth (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.generateRandomMonth",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "monthMapper1 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.monthMapper1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "monthMapper2 (1 Points)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.monthMapper2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "monthMapper3 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.monthMapper3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "monthMapper4 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.monthMapper4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "extendArray1 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.extendArray1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "extendArray2 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.extendArray2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "extendArray3 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.extendArray3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "extendArray4 (1 Points)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.extendArray4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
