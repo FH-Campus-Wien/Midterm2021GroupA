@@ -212,4 +212,23 @@ public class AppTest {
         }
     }
 
+    @Test
+    public void extendArray5(){
+        int[] result;
+
+        try {
+            Method m = App.class.getMethod("extendArray", int[].class, int[].class);
+            int[] a = {0, 0};
+            int[] b = {-1, -1};
+            result = (int[])m.invoke(null, a, b);
+            int[] expected = {-1, 0, -1, 0};
+            assertArrayEquals(expected, result);
+        } catch (NoSuchMethodException name){
+            fail("There should be a static method called extendArray.");
+        } catch (Exception e) {
+            e.printStackTrace();
+            fail("Some other problems have occurred. Check data types and return types.");
+        }
+    }
+
 }

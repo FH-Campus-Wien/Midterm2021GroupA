@@ -89,6 +89,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "extendArray5 (1 Points)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.extendArray5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
     }
   ]
 }
